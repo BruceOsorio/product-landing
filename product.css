@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+.landing>div {
+    border: 1px solid black;
+}
+
+.background {
+    background-image: url(./images/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+h1 {
+    color: aliceblue;
+}
+
+.pics {
+    display: grid;
+    grid: template rows 1fr 1fr 1fr;
+}
+
+.landing {
+    text-align: center;
+}
+
+.pics {
+    display: grid;
+}
+.pz {}
+
+.valheim {}
+
+.squad {}
