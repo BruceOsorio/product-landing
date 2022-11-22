@@ -15,7 +15,12 @@ html {
     position: absolute;
     z-index: -1;
 }
+
 h1 {
+    color: aliceblue;
+}
+
+p {
     color: aliceblue;
 }
 
@@ -31,6 +36,7 @@ h1 {
 .pics {
     display: grid;
 }
+
 .pz {}
 
 .valheim {}
