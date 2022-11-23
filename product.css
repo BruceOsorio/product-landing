@@ -1,10 +1,12 @@
 html {
     box-sizing: border-box;
+    height: max-content;
+    width: max-content;
 }
 
-.landing>div {
+/* .landing>div {
     border: 1px solid black;
-}
+} */
 
 .background {
     background-image: url(./images/bg3.jpg);
@@ -25,17 +27,22 @@ p {
 }
 
 .pics {
-    display: grid;
+    display: flex;
     grid: template rows 1fr 1fr 1fr;
-    /* align-self: flex-end; */
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-self: flex-end;
 }
 
 .landing {
     text-align: center;
 }
 
-.pics {
-    display: grid;
+.fillup {
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    
 }
 
 .pz {}
