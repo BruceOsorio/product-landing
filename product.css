@@ -55,6 +55,14 @@ body {
     /* border: 3px solid red; */
 }
 
+.gameCard:hover {
+    transform: scale(1.1);
+}
+
+.gamecard:active {
+    transform: scale(1.0);
+    border: 3px solid rgb(115, 199, 115);
+}
 
 img {
     width: 400px;
@@ -123,9 +131,3 @@ button:hover {
 button:active {
     transform: scale(1);
 }
-
-/* .pz {}
-
-.valheim {}
-
-.squad {} */
